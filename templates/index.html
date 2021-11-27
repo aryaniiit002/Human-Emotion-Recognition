@@ -1,0 +1,107 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Oswald:wght@300&family=Quicksand&display=swap" rel="stylesheet">
+    <title> Facial Expression Recognition </title>
+</head>
+
+<style>
+    body {
+        background-color: rgb(243, 243, 243);
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .iiitS {
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 3px;
+        font-size: 2rem;
+    }
+    
+    .heading-logo {
+        width: 100vw;
+        margin: 47px 0;
+        height: 300px;
+    }
+    
+    .content {
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin-top: 36px;
+    }
+    
+    .project {
+        display: flex;
+        padding-top: 4rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .heading {
+        font-size: 1.5rem;
+        font-family: 'Lora', serif;
+        margin: 51px 0;
+    }
+    
+    .contributor {
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.3rem;
+        letter-spacing: 5px;
+    }
+    
+    .people {
+        display: flex;
+        width: 47vw;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    
+    .people span {
+        font-size: .9rem;
+        font-family: 'Quicksand', sans-serif;
+        line-height: 2rem;
+    }
+    
+    .getVideo {
+        width: 41vw;
+        height: 74vh;
+        margin: 51px 0;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1 class="iiitS">Indian Institute of Information Technology Sonepat</h1>
+        <div class="content">
+            <div class="project">
+                <span class="heading">HUMAN EMOTION RECOGNITION </span>
+                <span class="contributor">Contributors : </span>
+                <br>
+                <div class="people">
+                    <span>ALOK SHARMA <br>11911001 - CSE</span>
+                    <span>ARYAN BINDAL<br>11911002 - CSE</span>
+                </div>
+            </div>
+            <img class="getVideo" id="bg" src="{{ url_for('video_feed') }}">
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+</html>

@@ -2,6 +2,10 @@ app/
 bin/
 include/
 lib/
+__pycache__/
+.ipynb_checkpoints/
 lib64
 share/
 Fer2021.hdf5
+Facial-Expression-Recognition-with-CNNs-master/
+test/
