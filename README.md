@@ -25,19 +25,8 @@ cd Human-Emotion-Recognition
 * If you want to run this program, use this inside your virtual environment:  
 
 ```bash
-python test.py
+python main.py
 ```
-
-* The folder structure is of the form:  
-  src:            
-.           
-├── Fer2021.hdf5                 
-└── haar_cascade.xml       
-└── model_json.json               
-└── pyvenv.cfg           
-└── requirements.txt                 
-└── test.py
-
 
 * This implementation by default detects emotions on all faces in the webcam feed. With a simple 4-layer CNN, the test accuracy reached 63.2% in 50 epochs.
 
@@ -54,6 +43,4 @@ python test.py
 
 ## Example Output
 
-![Output Pics](Output-IMG/Pic1.png)               
-![Output Pics](Output-IMG/Pic2.png)           
-![Output Pics](Output-IMG/Pic3.jpeg)                 
+![Output Pics](Outputs/pic1.png)               
